@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="border">
+            <h1 class="naslov">People entered:</h1>
+            <div id="countEl">
+                <h2 id="count-el">0</h2>
+            </div>
+            <button class="btn" id="increment-btn" onclick="increment()">INCREMENT</button> <br>
+            <button class="btn" id="decrement-btn" onclick="decrement()">DECREMENT</button> <br>
+            <button class="btn" id="decline-btn" onclick="decline()">DECLINE</button> <br>        
+        </div>
+
+        <div class="main">
+            <div class="wrapper-c">
+                <h3>Ljudi koji su usli na terminal 1.</h3>
+                <div id="count-wrapper">
+                    <h2 id="count1">0</h2>
+                    <button class="btn" id="increment-btn" onclick="increment1()">INCREMENT</button> <br>
+                    <button class="btn" id="decrement-btn" onclick="decrement1()">DECREMENT</button> <br>
+                    <button class="btn" id="decline-btn" onclick="decline1()">DECLINE</button> <br> 
+                </div>
+            </div>
+            <div class="wrapper-c">
+                <h3>Ljudi koji su usli na terminal 2.</h3>
+                <div id="count-wrapper">
+                    <h2 id="count2">0</h2>
+                    <button class="btn" id="increment-btn" onclick="increment2()">INCREMENT</button> <br>
+                    <button class="btn" id="decrement-btn" onclick="decrement2()">DECREMENT</button> <br>
+                    <button class="btn" id="decline-btn" onclick="decline2()">DECLINE</button> <br> 
+                </div>
+            </div>
+            <div class="wrapper-s">
+                <h3>Ukupan broj ljudi na oba terminala.</h3>
+                <div id="count-wrapper">
+                    <h2 id="sum" ></h2>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
